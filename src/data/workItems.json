@@ -1,0 +1,56 @@
+[
+  {
+    "id": "ITEM-2026-07-09-001",
+    "title": "Implement ExecutiveStateProtocol parser",
+    "type": "action",
+    "status": "Active",
+    "priority": "Highest",
+    "description": "Build the parser layer that validates and exposes ExecutiveStateProtocol v3.0.",
+    "project": "JasperOS",
+    "labels": [
+      "Architecture",
+      "Foundation"
+    ],
+    "owner": "Jasper",
+    "created_at": "2026-07-09",
+    "updated_at": "2026-07-09",
+    "links": [],
+    "metadata": {}
+  },
+  {
+    "id": "ITEM-2026-07-09-002",
+    "title": "Implement Executive Cockpit decisions interface",
+    "type": "action",
+    "status": "Active",
+    "priority": "High",
+    "description": "Complete executive decision visualization and interaction layer.",
+    "project": "JasperOS",
+    "labels": [
+      "UI",
+      "Executive"
+    ],
+    "owner": "Jasper",
+    "created_at": "2026-07-09",
+    "updated_at": "2026-07-09",
+    "links": [],
+    "metadata": {}
+  },
+  {
+    "id": "ITEM-2026-07-09-003",
+    "title": "Receive campaign assets from Guillaume",
+    "type": "dependency",
+    "status": "Waiting",
+    "priority": "High",
+    "description": "Await artisan inventory and campaign images required for launch.",
+    "project": "Vinyiabtumayokan",
+    "labels": [
+      "External Dependency",
+      "Launch"
+    ],
+    "owner": "Guillaume",
+    "created_at": "2026-07-09",
+    "updated_at": "2026-07-09",
+    "links": [],
+    "metadata": {}
+  }
+]

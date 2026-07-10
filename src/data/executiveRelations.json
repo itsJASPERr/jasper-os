@@ -1,0 +1,28 @@
+[
+  {
+    "id": "REL-001",
+    "from": {
+      "type": "work_item",
+      "id": "ITEM-001"
+    },
+    "relation": "implements",
+    "to": {
+      "type": "project",
+      "id": "PRJ-002"
+    },
+    "description": "Work item contributes to JasperOS implementation"
+  },
+  {
+    "id": "REL-002",
+    "from": {
+      "type": "project",
+      "id": "PRJ-002"
+    },
+    "relation": "created_by",
+    "to": {
+      "type": "decision",
+      "id": "DEC-2026-07-09-001"
+    },
+    "description": "JasperOS architecture follows this executive decision"
+  }
+]

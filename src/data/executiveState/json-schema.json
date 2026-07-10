@@ -1,0 +1,2364 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "protocol": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "examples": [
+            "ExecutiveStateProtocol"
+          ]
+        },
+        "version": {
+          "type": "string",
+          "examples": [
+            "3.0.0"
+          ]
+        }
+      },
+      "examples": [
+        {
+          "name": "ExecutiveStateProtocol",
+          "version": "3.0.0"
+        }
+      ]
+    },
+    "generated": {
+      "type": "object",
+      "properties": {
+        "timestamp": {
+          "type": "string",
+          "examples": [
+            "2026-07-09T16:30:00-03:00"
+          ]
+        },
+        "timezone": {
+          "type": "string",
+          "examples": [
+            "America/Sao_Paulo"
+          ]
+        },
+        "executive_office_version": {
+          "type": "string",
+          "examples": [
+            "3.0.0"
+          ]
+        }
+      },
+      "examples": [
+        {
+          "timestamp": "2026-07-09T16:30:00-03:00",
+          "timezone": "America/Sao_Paulo",
+          "executive_office_version": "3.0.0"
+        }
+      ]
+    },
+    "user": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "examples": [
+            "Jasper Felix Meyer"
+          ]
+        },
+        "mode": {
+          "type": "string",
+          "examples": [
+            "Executive"
+          ]
+        }
+      },
+      "examples": [
+        {
+          "name": "Jasper Felix Meyer",
+          "mode": "Executive"
+        }
+      ]
+    },
+    "executive": {
+      "type": "object",
+      "properties": {
+        "briefing": {
+          "type": "object",
+          "properties": {
+            "headline": {
+              "type": "string",
+              "examples": [
+                "Portfolio stable. JasperOS Executive Cockpit foundation operational."
+              ]
+            },
+            "summary": {
+              "type": "string",
+              "examples": [
+                "The portfolio remains strategically aligned. External dependencies continue to constrain Vinyiabtumayokan and Earth Bridge Alliance execution. Today's focus was advancing JasperOS from a dashboard implementation into a structured executive interface using ExecutiveStateProtocol v3.0 as the canonical contract. The separation between JasperOS as the executive layer and CompanyOS as the broader operating system was clarified and reinforced. The Executive Cockpit foundation is now validated through schema alignment, dashboard integration, navigation improvements, and executive workflow definition."
+              ]
+            },
+            "today_focus": {
+              "type": "string",
+              "examples": [
+                "Continue JasperOS implementation by completing executive interface components while preserving ExecutiveStateProtocol v3.0 as the immutable canonical contract."
+              ]
+            },
+            "energy_level": {
+              "type": "string",
+              "examples": [
+                "High"
+              ]
+            },
+            "confidence": {
+              "type": "number",
+              "examples": [
+                0.98
+              ]
+            }
+          },
+          "examples": [
+            {
+              "headline": "Portfolio stable. JasperOS Executive Cockpit foundation operational.",
+              "summary": "The portfolio remains strategically aligned. External dependencies continue to constrain Vinyiabtumayokan and Earth Bridge Alliance execution. Today's focus was advancing JasperOS from a dashboard implementation into a structured executive interface using ExecutiveStateProtocol v3.0 as the canonical contract. The separation between JasperOS as the executive layer and CompanyOS as the broader operating system was clarified and reinforced. The Executive Cockpit foundation is now validated through schema alignment, dashboard integration, navigation improvements, and executive workflow definition.",
+              "today_focus": "Continue JasperOS implementation by completing executive interface components while preserving ExecutiveStateProtocol v3.0 as the immutable canonical contract.",
+              "energy_level": "High",
+              "confidence": 0.98
+            }
+          ]
+        },
+        "strategic_priorities": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "examples": [
+                  "SP-001"
+                ]
+              },
+              "title": {
+                "type": "string",
+                "examples": [
+                  "Launch Vinyiabtumayokan"
+                ]
+              },
+              "priority": {
+                "type": "integer",
+                "examples": [
+                  1
+                ]
+              },
+              "status": {
+                "type": "string",
+                "examples": [
+                  "Waiting External"
+                ]
+              },
+              "progress": {
+                "type": "integer",
+                "examples": [
+                  90
+                ]
+              },
+              "next_action": {
+                "type": "string",
+                "examples": [
+                  "Receive artisan inventory and campaign images from Guillaume."
+                ]
+              }
+            },
+            "examples": [
+              {
+                "id": "SP-001",
+                "title": "Launch Vinyiabtumayokan",
+                "priority": 1,
+                "status": "Waiting External",
+                "progress": 90,
+                "next_action": "Receive artisan inventory and campaign images from Guillaume."
+              }
+            ]
+          },
+          "examples": [
+            [
+              {
+                "id": "SP-001",
+                "title": "Launch Vinyiabtumayokan",
+                "priority": 1,
+                "status": "Waiting External",
+                "progress": 90,
+                "next_action": "Receive artisan inventory and campaign images from Guillaume."
+              },
+              {
+                "id": "SP-002",
+                "title": "Complete Earth Bridge Alliance Registration",
+                "priority": 2,
+                "status": "Waiting External",
+                "progress": 95,
+                "next_action": "Submit incorporation documents immediately after signature."
+              },
+              {
+                "id": "SP-003",
+                "title": "Implement JasperOS",
+                "priority": 3,
+                "status": "Active",
+                "progress": 35,
+                "next_action": "Implement Decisions interface and continue Executive Cockpit modules."
+              },
+              {
+                "id": "SP-004",
+                "title": "Develop CompanyOS",
+                "priority": 4,
+                "status": "Architecture",
+                "progress": 15,
+                "next_action": "Capture validated executive workflows from JasperOS usage."
+              },
+              {
+                "id": "SP-005",
+                "title": "AI Consulting & Products",
+                "priority": 5,
+                "status": "Active",
+                "progress": 10,
+                "next_action": "Resume after current launch priorities are unblocked."
+              }
+            ]
+          ]
+        },
+        "decisions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "examples": [
+                  "DEC-2026-07-09-001"
+                ]
+              },
+              "title": {
+                "type": "string",
+                "examples": [
+                  "Freeze ExecutiveStateProtocol v3.0"
+                ]
+              },
+              "decision": {
+                "type": "string",
+                "examples": [
+                  "Approved"
+                ]
+              },
+              "reasoning": {
+                "type": "string",
+                "examples": [
+                  "Establish a stable canonical API between Executive Office, JasperOS and CompanyOS."
+                ]
+              },
+              "impact": {
+                "type": "string",
+                "examples": [
+                  "Future briefings become machine-readable and backward compatible."
+                ]
+              },
+              "date": {
+                "type": "string",
+                "examples": [
+                  "2026-07-09"
+                ]
+              }
+            },
+            "examples": [
+              {
+                "id": "DEC-2026-07-09-001",
+                "title": "Freeze ExecutiveStateProtocol v3.0",
+                "decision": "Approved",
+                "reasoning": "Establish a stable canonical API between Executive Office, JasperOS and CompanyOS.",
+                "impact": "Future briefings become machine-readable and backward compatible.",
+                "date": "2026-07-09"
+              }
+            ]
+          },
+          "examples": [
+            [
+              {
+                "id": "DEC-2026-07-09-001",
+                "title": "Freeze ExecutiveStateProtocol v3.0",
+                "decision": "Approved",
+                "reasoning": "Establish a stable canonical API between Executive Office, JasperOS and CompanyOS.",
+                "impact": "Future briefings become machine-readable and backward compatible.",
+                "date": "2026-07-09"
+              },
+              {
+                "id": "DEC-2026-07-09-002",
+                "title": "Separate Decision Layer from Execution Layer",
+                "decision": "Approved",
+                "reasoning": "Executive Office owns decisions while project spaces own implementation.",
+                "impact": "Improves focus and prevents project clutter.",
+                "date": "2026-07-09"
+              },
+              {
+                "id": "DEC-2026-07-09-003",
+                "title": "Waiting On Register",
+                "decision": "Approved",
+                "reasoning": "Executives manage dependencies, not only tasks.",
+                "impact": "Core CompanyOS executive workflow.",
+                "date": "2026-07-09"
+              }
+            ]
+          ]
+        },
+        "waiting_on_register": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "owner": {
+                "type": "string",
+                "examples": [
+                  "Guillaume"
+                ]
+              },
+              "dependency": {
+                "type": "string",
+                "examples": [
+                  "Kamëntsá artisan photos and European inventory"
+                ]
+              },
+              "blocks": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "examples": [
+                    "Campaign images"
+                  ]
+                },
+                "examples": [
+                  [
+                    "Campaign images",
+                    "Donor appreciation packages",
+                    "GoFundMe launch"
+                  ]
+                ]
+              },
+              "priority": {
+                "type": "string",
+                "examples": [
+                  "High"
+                ]
+              },
+              "last_follow_up": {
+                "type": "null"
+              },
+              "next_follow_up": {
+                "type": "null"
+              }
+            },
+            "examples": [
+              {
+                "owner": "Guillaume",
+                "dependency": "Kamëntsá artisan photos and European inventory",
+                "blocks": [
+                  "Campaign images",
+                  "Donor appreciation packages",
+                  "GoFundMe launch"
+                ],
+                "priority": "High",
+                "last_follow_up": null,
+                "next_follow_up": null
+              }
+            ]
+          },
+          "examples": [
+            [
+              {
+                "owner": "Guillaume",
+                "dependency": "Kamëntsá artisan photos and European inventory",
+                "blocks": [
+                  "Campaign images",
+                  "Donor appreciation packages",
+                  "GoFundMe launch"
+                ],
+                "priority": "High",
+                "last_follow_up": null,
+                "next_follow_up": null
+              },
+              {
+                "owner": "Guillaume",
+                "dependency": "Earth Bridge Alliance legal signature",
+                "blocks": [
+                  "Foundation registration"
+                ],
+                "priority": "High",
+                "last_follow_up": null,
+                "next_follow_up": null
+              }
+            ]
+          ]
+        },
+        "risks": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string",
+                "examples": [
+                  "Crowdfunding launch delay"
+                ]
+              },
+              "severity": {
+                "type": "string",
+                "examples": [
+                  "Medium"
+                ]
+              },
+              "mitigation": {
+                "type": "string",
+                "examples": [
+                  "Launch immediately once campaign assets arrive."
+                ]
+              }
+            },
+            "examples": [
+              {
+                "title": "Crowdfunding launch delay",
+                "severity": "Medium",
+                "mitigation": "Launch immediately once campaign assets arrive."
+              }
+            ]
+          },
+          "examples": [
+            [
+              {
+                "title": "Crowdfunding launch delay",
+                "severity": "Medium",
+                "mitigation": "Launch immediately once campaign assets arrive."
+              },
+              {
+                "title": "Foundation registration delay",
+                "severity": "Medium",
+                "mitigation": "Submit documents immediately after signature."
+              },
+              {
+                "title": "Opening additional initiatives",
+                "severity": "Low",
+                "mitigation": "Maintain focus on current strategic sequence."
+              }
+            ]
+          ]
+        },
+        "opportunities": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string",
+                "examples": [
+                  "First Earth Bridge Alliance success story"
+                ]
+              },
+              "description": {
+                "type": "string",
+                "examples": [
+                  "Successful completion of Phase 1 strengthens institutional credibility."
+                ]
+              },
+              "potential_value": {
+                "type": "string",
+                "examples": [
+                  "High"
+                ]
+              },
+              "recommended_action": {
+                "type": "string",
+                "examples": [
+                  "Document campaign progress from day one."
+                ]
+              }
+            },
+            "examples": [
+              {
+                "title": "First Earth Bridge Alliance success story",
+                "description": "Successful completion of Phase 1 strengthens institutional credibility.",
+                "potential_value": "High",
+                "recommended_action": "Document campaign progress from day one."
+              }
+            ]
+          },
+          "examples": [
+            [
+              {
+                "title": "First Earth Bridge Alliance success story",
+                "description": "Successful completion of Phase 1 strengthens institutional credibility.",
+                "potential_value": "High",
+                "recommended_action": "Document campaign progress from day one."
+              },
+              {
+                "title": "ExecutiveStateProtocol",
+                "description": "Stable executive contract enables JasperOS implementation.",
+                "potential_value": "High",
+                "recommended_action": "Implement parser and dashboard components."
+              }
+            ]
+          ]
+        },
+        "cross_project_dependencies": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "from": {
+                "type": "string",
+                "examples": [
+                  "Vinyiabtumayokan"
+                ]
+              },
+              "to": {
+                "type": "string",
+                "examples": [
+                  "Earth Bridge Alliance"
+                ]
+              },
+              "relationship": {
+                "type": "string",
+                "examples": [
+                  "Successful crowdfunding becomes institutional proof of execution."
+                ]
+              }
+            },
+            "examples": [
+              {
+                "from": "Vinyiabtumayokan",
+                "to": "Earth Bridge Alliance",
+                "relationship": "Successful crowdfunding becomes institutional proof of execution."
+              }
+            ]
+          },
+          "examples": [
+            [
+              {
+                "from": "Vinyiabtumayokan",
+                "to": "Earth Bridge Alliance",
+                "relationship": "Successful crowdfunding becomes institutional proof of execution."
+              },
+              {
+                "from": "Executive Office",
+                "to": "JasperOS",
+                "relationship": "ExecutiveStateProtocol powers dashboard and executive interface."
+              },
+              {
+                "from": "Executive Office",
+                "to": "CompanyOS",
+                "relationship": "Validated executive workflows become reusable platform capabilities."
+              }
+            ]
+          ]
+        },
+        "executive_actions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string",
+                "examples": [
+                  "Implement ExecutiveStateProtocol parser"
+                ]
+              },
+              "reason": {
+                "type": "string",
+                "examples": [
+                  "Foundation for JasperOS"
+                ]
+              },
+              "estimated_time": {
+                "type": "string",
+                "examples": [
+                  "2h"
+                ]
+              },
+              "priority": {
+                "type": "string",
+                "examples": [
+                  "Highest"
+                ]
+              }
+            },
+            "examples": [
+              {
+                "title": "Implement ExecutiveStateProtocol parser",
+                "reason": "Foundation for JasperOS",
+                "estimated_time": "2h",
+                "priority": "Highest"
+              }
+            ]
+          },
+          "examples": [
+            [
+              {
+                "title": "Implement ExecutiveStateProtocol parser",
+                "reason": "Foundation for JasperOS",
+                "estimated_time": "2h",
+                "priority": "Highest"
+              },
+              {
+                "title": "Maintain GoFundMe launch readiness",
+                "reason": "Highest-impact external initiative",
+                "estimated_time": "30m",
+                "priority": "High"
+              },
+              {
+                "title": "Implement Executive Cockpit decisions interface",
+                "reason": "Complete executive state visualization layer",
+                "estimated_time": "2h",
+                "priority": "High"
+              }
+            ]
+          ]
+        },
+        "executive_reviews": {
+          "type": "object",
+          "properties": {
+            "daily": {
+              "type": "object",
+              "properties": {
+                "status": {
+                  "type": "string",
+                  "examples": [
+                    "Portfolio stable. JasperOS Executive Cockpit foundation operational. External dependencies remain primary execution constraints."
+                  ]
+                }
+              },
+              "examples": [
+                {
+                  "status": "Portfolio stable. JasperOS Executive Cockpit foundation operational. External dependencies remain primary execution constraints."
+                }
+              ]
+            },
+            "weekly": {
+              "type": "object",
+              "properties": {},
+              "examples": [
+                {}
+              ]
+            },
+            "monthly": {
+              "type": "object",
+              "properties": {},
+              "examples": [
+                {}
+              ]
+            },
+            "quarterly": {
+              "type": "object",
+              "properties": {},
+              "examples": [
+                {}
+              ]
+            }
+          },
+          "examples": [
+            {
+              "daily": {
+                "status": "Portfolio stable. JasperOS Executive Cockpit foundation operational. External dependencies remain primary execution constraints."
+              },
+              "weekly": {},
+              "monthly": {},
+              "quarterly": {}
+            }
+          ]
+        }
+      },
+      "examples": [
+        {
+          "briefing": {
+            "headline": "Portfolio stable. JasperOS Executive Cockpit foundation operational.",
+            "summary": "The portfolio remains strategically aligned. External dependencies continue to constrain Vinyiabtumayokan and Earth Bridge Alliance execution. Today's focus was advancing JasperOS from a dashboard implementation into a structured executive interface using ExecutiveStateProtocol v3.0 as the canonical contract. The separation between JasperOS as the executive layer and CompanyOS as the broader operating system was clarified and reinforced. The Executive Cockpit foundation is now validated through schema alignment, dashboard integration, navigation improvements, and executive workflow definition.",
+            "today_focus": "Continue JasperOS implementation by completing executive interface components while preserving ExecutiveStateProtocol v3.0 as the immutable canonical contract.",
+            "energy_level": "High",
+            "confidence": 0.98
+          },
+          "strategic_priorities": [
+            {
+              "id": "SP-001",
+              "title": "Launch Vinyiabtumayokan",
+              "priority": 1,
+              "status": "Waiting External",
+              "progress": 90,
+              "next_action": "Receive artisan inventory and campaign images from Guillaume."
+            },
+            {
+              "id": "SP-002",
+              "title": "Complete Earth Bridge Alliance Registration",
+              "priority": 2,
+              "status": "Waiting External",
+              "progress": 95,
+              "next_action": "Submit incorporation documents immediately after signature."
+            },
+            {
+              "id": "SP-003",
+              "title": "Implement JasperOS",
+              "priority": 3,
+              "status": "Active",
+              "progress": 35,
+              "next_action": "Implement Decisions interface and continue Executive Cockpit modules."
+            },
+            {
+              "id": "SP-004",
+              "title": "Develop CompanyOS",
+              "priority": 4,
+              "status": "Architecture",
+              "progress": 15,
+              "next_action": "Capture validated executive workflows from JasperOS usage."
+            },
+            {
+              "id": "SP-005",
+              "title": "AI Consulting & Products",
+              "priority": 5,
+              "status": "Active",
+              "progress": 10,
+              "next_action": "Resume after current launch priorities are unblocked."
+            }
+          ],
+          "decisions": [
+            {
+              "id": "DEC-2026-07-09-001",
+              "title": "Freeze ExecutiveStateProtocol v3.0",
+              "decision": "Approved",
+              "reasoning": "Establish a stable canonical API between Executive Office, JasperOS and CompanyOS.",
+              "impact": "Future briefings become machine-readable and backward compatible.",
+              "date": "2026-07-09"
+            },
+            {
+              "id": "DEC-2026-07-09-002",
+              "title": "Separate Decision Layer from Execution Layer",
+              "decision": "Approved",
+              "reasoning": "Executive Office owns decisions while project spaces own implementation.",
+              "impact": "Improves focus and prevents project clutter.",
+              "date": "2026-07-09"
+            },
+            {
+              "id": "DEC-2026-07-09-003",
+              "title": "Waiting On Register",
+              "decision": "Approved",
+              "reasoning": "Executives manage dependencies, not only tasks.",
+              "impact": "Core CompanyOS executive workflow.",
+              "date": "2026-07-09"
+            }
+          ],
+          "waiting_on_register": [
+            {
+              "owner": "Guillaume",
+              "dependency": "Kamëntsá artisan photos and European inventory",
+              "blocks": [
+                "Campaign images",
+                "Donor appreciation packages",
+                "GoFundMe launch"
+              ],
+              "priority": "High",
+              "last_follow_up": null,
+              "next_follow_up": null
+            },
+            {
+              "owner": "Guillaume",
+              "dependency": "Earth Bridge Alliance legal signature",
+              "blocks": [
+                "Foundation registration"
+              ],
+              "priority": "High",
+              "last_follow_up": null,
+              "next_follow_up": null
+            }
+          ],
+          "risks": [
+            {
+              "title": "Crowdfunding launch delay",
+              "severity": "Medium",
+              "mitigation": "Launch immediately once campaign assets arrive."
+            },
+            {
+              "title": "Foundation registration delay",
+              "severity": "Medium",
+              "mitigation": "Submit documents immediately after signature."
+            },
+            {
+              "title": "Opening additional initiatives",
+              "severity": "Low",
+              "mitigation": "Maintain focus on current strategic sequence."
+            }
+          ],
+          "opportunities": [
+            {
+              "title": "First Earth Bridge Alliance success story",
+              "description": "Successful completion of Phase 1 strengthens institutional credibility.",
+              "potential_value": "High",
+              "recommended_action": "Document campaign progress from day one."
+            },
+            {
+              "title": "ExecutiveStateProtocol",
+              "description": "Stable executive contract enables JasperOS implementation.",
+              "potential_value": "High",
+              "recommended_action": "Implement parser and dashboard components."
+            }
+          ],
+          "cross_project_dependencies": [
+            {
+              "from": "Vinyiabtumayokan",
+              "to": "Earth Bridge Alliance",
+              "relationship": "Successful crowdfunding becomes institutional proof of execution."
+            },
+            {
+              "from": "Executive Office",
+              "to": "JasperOS",
+              "relationship": "ExecutiveStateProtocol powers dashboard and executive interface."
+            },
+            {
+              "from": "Executive Office",
+              "to": "CompanyOS",
+              "relationship": "Validated executive workflows become reusable platform capabilities."
+            }
+          ],
+          "executive_actions": [
+            {
+              "title": "Implement ExecutiveStateProtocol parser",
+              "reason": "Foundation for JasperOS",
+              "estimated_time": "2h",
+              "priority": "Highest"
+            },
+            {
+              "title": "Maintain GoFundMe launch readiness",
+              "reason": "Highest-impact external initiative",
+              "estimated_time": "30m",
+              "priority": "High"
+            },
+            {
+              "title": "Implement Executive Cockpit decisions interface",
+              "reason": "Complete executive state visualization layer",
+              "estimated_time": "2h",
+              "priority": "High"
+            }
+          ],
+          "executive_reviews": {
+            "daily": {
+              "status": "Portfolio stable. JasperOS Executive Cockpit foundation operational. External dependencies remain primary execution constraints."
+            },
+            "weekly": {},
+            "monthly": {},
+            "quarterly": {}
+          }
+        }
+      ]
+    },
+    "portfolio": {
+      "type": "object",
+      "properties": {
+        "domains": {
+          "type": "object",
+          "properties": {
+            "mission": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "examples": [
+                  "Earth Bridge Alliance"
+                ]
+              },
+              "examples": [
+                [
+                  "Earth Bridge Alliance",
+                  "Vinyiabtumayokan",
+                  "Colombia Initiatives"
+                ]
+              ]
+            },
+            "technology": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "examples": [
+                  "JasperOS"
+                ]
+              },
+              "examples": [
+                [
+                  "JasperOS",
+                  "CompanyOS"
+                ]
+              ]
+            },
+            "land": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "examples": [
+                  "Pueblo Mágico"
+                ]
+              },
+              "examples": [
+                [
+                  "Pueblo Mágico"
+                ]
+              ]
+            },
+            "income": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "examples": [
+                  "AI Consulting & Products"
+                ]
+              },
+              "examples": [
+                [
+                  "AI Consulting & Products"
+                ]
+              ]
+            },
+            "personal": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "examples": [
+                  "Health"
+                ]
+              },
+              "examples": [
+                [
+                  "Health",
+                  "Learning",
+                  "Languages"
+                ]
+              ]
+            }
+          },
+          "examples": [
+            {
+              "mission": [
+                "Earth Bridge Alliance",
+                "Vinyiabtumayokan",
+                "Colombia Initiatives"
+              ],
+              "technology": [
+                "JasperOS",
+                "CompanyOS"
+              ],
+              "land": [
+                "Pueblo Mágico"
+              ],
+              "income": [
+                "AI Consulting & Products"
+              ],
+              "personal": [
+                "Health",
+                "Learning",
+                "Languages"
+              ]
+            }
+          ]
+        },
+        "projects": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "examples": [
+                  "PRJ-001"
+                ]
+              },
+              "name": {
+                "type": "string",
+                "examples": [
+                  "Executive Office"
+                ]
+              },
+              "status": {
+                "type": "string",
+                "examples": [
+                  "Active"
+                ]
+              },
+              "health": {
+                "type": "string",
+                "examples": [
+                  "Green"
+                ]
+              },
+              "progress": {
+                "type": "integer",
+                "examples": [
+                  100
+                ]
+              },
+              "blockers": {
+                "type": "array",
+                "examples": [
+                  []
+                ]
+              },
+              "waiting_on": {
+                "type": "array",
+                "examples": [
+                  []
+                ]
+              },
+              "repositories": {
+                "type": "array",
+                "examples": [
+                  []
+                ]
+              },
+              "next_actions": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "examples": [
+                    "Generate daily executive state"
+                  ]
+                },
+                "examples": [
+                  [
+                    "Generate daily executive state"
+                  ]
+                ]
+              },
+              "recent_decisions": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "examples": [
+                    "ExecutiveStateProtocol v3.0 frozen"
+                  ]
+                },
+                "examples": [
+                  [
+                    "ExecutiveStateProtocol v3.0 frozen"
+                  ]
+                ]
+              }
+            },
+            "examples": [
+              {
+                "id": "PRJ-001",
+                "name": "Executive Office",
+                "status": "Active",
+                "health": "Green",
+                "progress": 100,
+                "blockers": [],
+                "waiting_on": [],
+                "repositories": [],
+                "next_actions": [
+                  "Generate daily executive state"
+                ],
+                "recent_decisions": [
+                  "ExecutiveStateProtocol v3.0 frozen"
+                ]
+              }
+            ]
+          },
+          "examples": [
+            [
+              {
+                "id": "PRJ-001",
+                "name": "Executive Office",
+                "status": "Active",
+                "health": "Green",
+                "progress": 100,
+                "blockers": [],
+                "waiting_on": [],
+                "repositories": [],
+                "next_actions": [
+                  "Generate daily executive state"
+                ],
+                "recent_decisions": [
+                  "ExecutiveStateProtocol v3.0 frozen"
+                ]
+              },
+              {
+                "id": "PRJ-002",
+                "name": "JasperOS",
+                "status": "Active",
+                "health": "Green",
+                "progress": 35,
+                "repositories": [
+                  "REPO-001"
+                ],
+                "blockers": [],
+                "waiting_on": [],
+                "next_actions": [
+                  "Implement Decisions interface",
+                  "Build remaining dashboard widgets"
+                ],
+                "recent_decisions": [
+                  "ExecutiveStateProtocol adopted as canonical data source.",
+                  "JasperOS maintained as executive layer separate from CompanyOS.",
+                  "Executive Cockpit foundation validated."
+                ]
+              },
+              {
+                "id": "PRJ-003",
+                "name": "CompanyOS",
+                "status": "Architecture",
+                "health": "Green",
+                "progress": 15,
+                "repositories": [
+                  "REPO-002"
+                ],
+                "blockers": [],
+                "waiting_on": [],
+                "next_actions": [
+                  "Capture validated executive workflows"
+                ],
+                "recent_decisions": [
+                  "Executive Office becomes reasoning layer."
+                ]
+              },
+              {
+                "id": "PRJ-004",
+                "name": "Vinyiabtumayokan",
+                "status": "Launch Preparation",
+                "health": "Yellow",
+                "progress": 90,
+                "blockers": [
+                  "Campaign assets"
+                ],
+                "waiting_on": [
+                  "Guillaume"
+                ],
+                "repositories": [],
+                "next_actions": [
+                  "Launch campaign"
+                ],
+                "recent_decisions": [
+                  "Funding ladder finalized."
+                ]
+              },
+              {
+                "id": "PRJ-005",
+                "name": "Earth Bridge Alliance",
+                "status": "Registration Pending",
+                "health": "Yellow",
+                "progress": 95,
+                "blockers": [
+                  "Legal signature"
+                ],
+                "waiting_on": [
+                  "Guillaume"
+                ],
+                "repositories": [],
+                "next_actions": [
+                  "Submit incorporation"
+                ],
+                "recent_decisions": [
+                  "Foundation remains long-term institutional vehicle."
+                ]
+              }
+            ]
+          ]
+        },
+        "products": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string",
+                "examples": [
+                  "JasperOS"
+                ]
+              },
+              "stage": {
+                "type": "string",
+                "examples": [
+                  "Implementation"
+                ]
+              },
+              "priority": {
+                "type": "string",
+                "examples": [
+                  "Highest"
+                ]
+              }
+            },
+            "examples": [
+              {
+                "name": "JasperOS",
+                "stage": "Implementation",
+                "priority": "Highest"
+              }
+            ]
+          },
+          "examples": [
+            [
+              {
+                "name": "JasperOS",
+                "stage": "Implementation",
+                "priority": "Highest"
+              },
+              {
+                "name": "CompanyOS",
+                "stage": "Architecture",
+                "priority": "High"
+              },
+              {
+                "name": "Meeting Memory",
+                "stage": "Planning",
+                "priority": "Medium"
+              }
+            ]
+          ]
+        },
+        "repositories": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "examples": [
+              "REPO-001"
+            ]
+          },
+          "examples": [
+            [
+              "REPO-001",
+              "REPO-002"
+            ]
+          ]
+        },
+        "consulting_pipeline": {
+          "type": "object",
+          "properties": {
+            "leads": {
+              "type": "array",
+              "examples": [
+                []
+              ]
+            },
+            "active_proposals": {
+              "type": "array",
+              "examples": [
+                []
+              ]
+            },
+            "active_clients": {
+              "type": "array",
+              "examples": [
+                []
+              ]
+            },
+            "completed_projects": {
+              "type": "array",
+              "examples": [
+                []
+              ]
+            }
+          },
+          "examples": [
+            {
+              "leads": [],
+              "active_proposals": [],
+              "active_clients": [],
+              "completed_projects": []
+            }
+          ]
+        }
+      },
+      "examples": [
+        {
+          "domains": {
+            "mission": [
+              "Earth Bridge Alliance",
+              "Vinyiabtumayokan",
+              "Colombia Initiatives"
+            ],
+            "technology": [
+              "JasperOS",
+              "CompanyOS"
+            ],
+            "land": [
+              "Pueblo Mágico"
+            ],
+            "income": [
+              "AI Consulting & Products"
+            ],
+            "personal": [
+              "Health",
+              "Learning",
+              "Languages"
+            ]
+          },
+          "projects": [
+            {
+              "id": "PRJ-001",
+              "name": "Executive Office",
+              "status": "Active",
+              "health": "Green",
+              "progress": 100,
+              "blockers": [],
+              "waiting_on": [],
+              "repositories": [],
+              "next_actions": [
+                "Generate daily executive state"
+              ],
+              "recent_decisions": [
+                "ExecutiveStateProtocol v3.0 frozen"
+              ]
+            },
+            {
+              "id": "PRJ-002",
+              "name": "JasperOS",
+              "status": "Active",
+              "health": "Green",
+              "progress": 35,
+              "repositories": [
+                "REPO-001"
+              ],
+              "blockers": [],
+              "waiting_on": [],
+              "next_actions": [
+                "Implement Decisions interface",
+                "Build remaining dashboard widgets"
+              ],
+              "recent_decisions": [
+                "ExecutiveStateProtocol adopted as canonical data source.",
+                "JasperOS maintained as executive layer separate from CompanyOS.",
+                "Executive Cockpit foundation validated."
+              ]
+            },
+            {
+              "id": "PRJ-003",
+              "name": "CompanyOS",
+              "status": "Architecture",
+              "health": "Green",
+              "progress": 15,
+              "repositories": [
+                "REPO-002"
+              ],
+              "blockers": [],
+              "waiting_on": [],
+              "next_actions": [
+                "Capture validated executive workflows"
+              ],
+              "recent_decisions": [
+                "Executive Office becomes reasoning layer."
+              ]
+            },
+            {
+              "id": "PRJ-004",
+              "name": "Vinyiabtumayokan",
+              "status": "Launch Preparation",
+              "health": "Yellow",
+              "progress": 90,
+              "blockers": [
+                "Campaign assets"
+              ],
+              "waiting_on": [
+                "Guillaume"
+              ],
+              "repositories": [],
+              "next_actions": [
+                "Launch campaign"
+              ],
+              "recent_decisions": [
+                "Funding ladder finalized."
+              ]
+            },
+            {
+              "id": "PRJ-005",
+              "name": "Earth Bridge Alliance",
+              "status": "Registration Pending",
+              "health": "Yellow",
+              "progress": 95,
+              "blockers": [
+                "Legal signature"
+              ],
+              "waiting_on": [
+                "Guillaume"
+              ],
+              "repositories": [],
+              "next_actions": [
+                "Submit incorporation"
+              ],
+              "recent_decisions": [
+                "Foundation remains long-term institutional vehicle."
+              ]
+            }
+          ],
+          "products": [
+            {
+              "name": "JasperOS",
+              "stage": "Implementation",
+              "priority": "Highest"
+            },
+            {
+              "name": "CompanyOS",
+              "stage": "Architecture",
+              "priority": "High"
+            },
+            {
+              "name": "Meeting Memory",
+              "stage": "Planning",
+              "priority": "Medium"
+            }
+          ],
+          "repositories": [
+            "REPO-001",
+            "REPO-002"
+          ],
+          "consulting_pipeline": {
+            "leads": [],
+            "active_proposals": [],
+            "active_clients": [],
+            "completed_projects": []
+          }
+        }
+      ]
+    },
+    "operations": {
+      "type": "object",
+      "properties": {
+        "tasks": {
+          "type": "object",
+          "properties": {
+            "today": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "title": {
+                    "type": "string",
+                    "examples": [
+                      "Align JasperOS dashboard with ExecutiveStateProtocol v3.0"
+                    ]
+                  },
+                  "tag": {
+                    "type": "string",
+                    "examples": [
+                      "JasperOS"
+                    ]
+                  },
+                  "time": {
+                    "type": "string",
+                    "examples": [
+                      "Completed"
+                    ]
+                  }
+                },
+                "examples": [
+                  {
+                    "title": "Align JasperOS dashboard with ExecutiveStateProtocol v3.0",
+                    "tag": "JasperOS",
+                    "time": "Completed"
+                  }
+                ]
+              },
+              "examples": [
+                [
+                  {
+                    "title": "Align JasperOS dashboard with ExecutiveStateProtocol v3.0",
+                    "tag": "JasperOS",
+                    "time": "Completed"
+                  },
+                  {
+                    "title": "Validate Executive Cockpit structure and navigation",
+                    "tag": "UI",
+                    "time": "Completed"
+                  }
+                ]
+              ]
+            },
+            "this_week": {
+              "type": "array",
+              "examples": [
+                []
+              ]
+            },
+            "delegated": {
+              "type": "array",
+              "examples": [
+                []
+              ]
+            },
+            "blocked": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "examples": [
+                  "GoFundMe launch"
+                ]
+              },
+              "examples": [
+                [
+                  "GoFundMe launch",
+                  "Foundation registration"
+                ]
+              ]
+            },
+            "completed_recently": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "examples": [
+                  "ExecutiveStateProtocol v3.0 frozen"
+                ]
+              },
+              "examples": [
+                [
+                  "ExecutiveStateProtocol v3.0 frozen",
+                  "JasperOS Executive Cockpit foundation implemented",
+                  "Dashboard aligned with canonical executive state",
+                  "JasperOS and CompanyOS architectural separation clarified"
+                ]
+              ]
+            }
+          },
+          "examples": [
+            {
+              "today": [
+                {
+                  "title": "Align JasperOS dashboard with ExecutiveStateProtocol v3.0",
+                  "tag": "JasperOS",
+                  "time": "Completed"
+                },
+                {
+                  "title": "Validate Executive Cockpit structure and navigation",
+                  "tag": "UI",
+                  "time": "Completed"
+                }
+              ],
+              "this_week": [],
+              "delegated": [],
+              "blocked": [
+                "GoFundMe launch",
+                "Foundation registration"
+              ],
+              "completed_recently": [
+                "ExecutiveStateProtocol v3.0 frozen",
+                "JasperOS Executive Cockpit foundation implemented",
+                "Dashboard aligned with canonical executive state",
+                "JasperOS and CompanyOS architectural separation clarified"
+              ]
+            }
+          ]
+        },
+        "calendar": {
+          "type": "object",
+          "properties": {
+            "today": {
+              "type": "array",
+              "examples": [
+                []
+              ]
+            },
+            "upcoming": {
+              "type": "array",
+              "examples": [
+                []
+              ]
+            }
+          },
+          "examples": [
+            {
+              "today": [],
+              "upcoming": []
+            }
+          ]
+        },
+        "meetings": {
+          "type": "array",
+          "examples": [
+            []
+          ]
+        },
+        "github_workspace": {
+          "type": "object",
+          "properties": {
+            "organizations": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "examples": [
+                  "jasper-meyer"
+                ]
+              },
+              "examples": [
+                [
+                  "jasper-meyer"
+                ]
+              ]
+            },
+            "repositories": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "examples": [
+                  "REPO-001"
+                ]
+              },
+              "examples": [
+                [
+                  "REPO-001",
+                  "REPO-002"
+                ]
+              ]
+            },
+            "issues": {
+              "type": "array",
+              "examples": [
+                []
+              ]
+            },
+            "pull_requests": {
+              "type": "array",
+              "examples": [
+                []
+              ]
+            },
+            "deployments": {
+              "type": "array",
+              "examples": [
+                []
+              ]
+            },
+            "actions": {
+              "type": "array",
+              "examples": [
+                []
+              ]
+            },
+            "alerts": {
+              "type": "array",
+              "examples": [
+                []
+              ]
+            }
+          },
+          "examples": [
+            {
+              "organizations": [
+                "jasper-meyer"
+              ],
+              "repositories": [
+                "REPO-001",
+                "REPO-002"
+              ],
+              "issues": [],
+              "pull_requests": [],
+              "deployments": [],
+              "actions": [],
+              "alerts": []
+            }
+          ]
+        },
+        "metrics": {
+          "type": "object",
+          "properties": {
+            "projects_active": {
+              "type": "integer",
+              "examples": [
+                5
+              ]
+            },
+            "blocked_items": {
+              "type": "integer",
+              "examples": [
+                2
+              ]
+            },
+            "focus_score": {
+              "type": "integer",
+              "examples": [
+                95
+              ]
+            },
+            "weekly_progress": {
+              "type": "integer",
+              "examples": [
+                25
+              ]
+            }
+          },
+          "examples": [
+            {
+              "projects_active": 5,
+              "blocked_items": 2,
+              "focus_score": 95,
+              "weekly_progress": 25
+            }
+          ]
+        }
+      },
+      "examples": [
+        {
+          "tasks": {
+            "today": [
+              {
+                "title": "Align JasperOS dashboard with ExecutiveStateProtocol v3.0",
+                "tag": "JasperOS",
+                "time": "Completed"
+              },
+              {
+                "title": "Validate Executive Cockpit structure and navigation",
+                "tag": "UI",
+                "time": "Completed"
+              }
+            ],
+            "this_week": [],
+            "delegated": [],
+            "blocked": [
+              "GoFundMe launch",
+              "Foundation registration"
+            ],
+            "completed_recently": [
+              "ExecutiveStateProtocol v3.0 frozen",
+              "JasperOS Executive Cockpit foundation implemented",
+              "Dashboard aligned with canonical executive state",
+              "JasperOS and CompanyOS architectural separation clarified"
+            ]
+          },
+          "calendar": {
+            "today": [],
+            "upcoming": []
+          },
+          "meetings": [],
+          "github_workspace": {
+            "organizations": [
+              "jasper-meyer"
+            ],
+            "repositories": [
+              "REPO-001",
+              "REPO-002"
+            ],
+            "issues": [],
+            "pull_requests": [],
+            "deployments": [],
+            "actions": [],
+            "alerts": []
+          },
+          "metrics": {
+            "projects_active": 5,
+            "blocked_items": 2,
+            "focus_score": 95,
+            "weekly_progress": 25
+          }
+        }
+      ]
+    },
+    "knowledge": {
+      "type": "object",
+      "properties": {
+        "new_insights": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "examples": [
+              "ExecutiveStateProtocol v3.0 is the canonical executive API."
+            ]
+          },
+          "examples": [
+            [
+              "ExecutiveStateProtocol v3.0 is the canonical executive API.",
+              "Executive dashboards should consume state, not define it.",
+              "JasperOS and CompanyOS require separate architectural identities."
+            ]
+          ]
+        },
+        "open_questions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "examples": [
+              "How should JasperOS synchronize updates back to the Executive Office?"
+            ]
+          },
+          "examples": [
+            [
+              "How should JasperOS synchronize updates back to the Executive Office?"
+            ]
+          ]
+        },
+        "ideas": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "examples": [
+              "Generate dashboards dynamically from ExecutiveStateProtocol."
+            ]
+          },
+          "examples": [
+            [
+              "Generate dashboards dynamically from ExecutiveStateProtocol."
+            ]
+          ]
+        },
+        "personal": {
+          "type": "object",
+          "properties": {
+            "learning": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "examples": [
+                  "Executive system architecture"
+                ]
+              },
+              "examples": [
+                [
+                  "Executive system architecture",
+                  "Dashboard design"
+                ]
+              ]
+            }
+          },
+          "examples": [
+            {
+              "learning": [
+                "Executive system architecture",
+                "Dashboard design"
+              ]
+            }
+          ]
+        }
+      },
+      "examples": [
+        {
+          "new_insights": [
+            "ExecutiveStateProtocol v3.0 is the canonical executive API.",
+            "Executive dashboards should consume state, not define it.",
+            "JasperOS and CompanyOS require separate architectural identities."
+          ],
+          "open_questions": [
+            "How should JasperOS synchronize updates back to the Executive Office?"
+          ],
+          "ideas": [
+            "Generate dashboards dynamically from ExecutiveStateProtocol."
+          ],
+          "personal": {
+            "learning": [
+              "Executive system architecture",
+              "Dashboard design"
+            ]
+          }
+        }
+      ]
+    },
+    "presentation": {
+      "type": "object",
+      "properties": {
+        "notifications": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
+                "examples": [
+                  "Information"
+                ]
+              },
+              "message": {
+                "type": "string",
+                "examples": [
+                  "ExecutiveStateProtocol v3.0 is active."
+                ]
+              }
+            },
+            "examples": [
+              {
+                "type": "Information",
+                "message": "ExecutiveStateProtocol v3.0 is active."
+              }
+            ]
+          },
+          "examples": [
+            [
+              {
+                "type": "Information",
+                "message": "ExecutiveStateProtocol v3.0 is active."
+              }
+            ]
+          ]
+        },
+        "dashboard": {
+          "type": "object",
+          "properties": {
+            "hero_project": {
+              "type": "string",
+              "examples": [
+                "JasperOS"
+              ]
+            },
+            "hero_metric": {
+              "type": "string",
+              "examples": [
+                "35%"
+              ]
+            },
+            "highlight": {
+              "type": "string",
+              "examples": [
+                "JasperOS Executive Cockpit foundation operational and aligned with ExecutiveStateProtocol v3.0."
+              ]
+            },
+            "alert": {
+              "type": "string",
+              "examples": [
+                ""
+              ]
+            }
+          },
+          "examples": [
+            {
+              "hero_project": "JasperOS",
+              "hero_metric": "35%",
+              "highlight": "JasperOS Executive Cockpit foundation operational and aligned with ExecutiveStateProtocol v3.0.",
+              "alert": ""
+            }
+          ]
+        }
+      },
+      "examples": [
+        {
+          "notifications": [
+            {
+              "type": "Information",
+              "message": "ExecutiveStateProtocol v3.0 is active."
+            }
+          ],
+          "dashboard": {
+            "hero_project": "JasperOS",
+            "hero_metric": "35%",
+            "highlight": "JasperOS Executive Cockpit foundation operational and aligned with ExecutiveStateProtocol v3.0.",
+            "alert": ""
+          }
+        }
+      ]
+    }
+  },
+  "examples": [
+    {
+      "protocol": {
+        "name": "ExecutiveStateProtocol",
+        "version": "3.0.0"
+      },
+      "generated": {
+        "timestamp": "2026-07-09T16:30:00-03:00",
+        "timezone": "America/Sao_Paulo",
+        "executive_office_version": "3.0.0"
+      },
+      "user": {
+        "name": "Jasper Felix Meyer",
+        "mode": "Executive"
+      },
+      "executive": {
+        "briefing": {
+          "headline": "Portfolio stable. JasperOS Executive Cockpit foundation operational.",
+          "summary": "The portfolio remains strategically aligned. External dependencies continue to constrain Vinyiabtumayokan and Earth Bridge Alliance execution. Today's focus was advancing JasperOS from a dashboard implementation into a structured executive interface using ExecutiveStateProtocol v3.0 as the canonical contract. The separation between JasperOS as the executive layer and CompanyOS as the broader operating system was clarified and reinforced. The Executive Cockpit foundation is now validated through schema alignment, dashboard integration, navigation improvements, and executive workflow definition.",
+          "today_focus": "Continue JasperOS implementation by completing executive interface components while preserving ExecutiveStateProtocol v3.0 as the immutable canonical contract.",
+          "energy_level": "High",
+          "confidence": 0.98
+        },
+        "strategic_priorities": [
+          {
+            "id": "SP-001",
+            "title": "Launch Vinyiabtumayokan",
+            "priority": 1,
+            "status": "Waiting External",
+            "progress": 90,
+            "next_action": "Receive artisan inventory and campaign images from Guillaume."
+          },
+          {
+            "id": "SP-002",
+            "title": "Complete Earth Bridge Alliance Registration",
+            "priority": 2,
+            "status": "Waiting External",
+            "progress": 95,
+            "next_action": "Submit incorporation documents immediately after signature."
+          },
+          {
+            "id": "SP-003",
+            "title": "Implement JasperOS",
+            "priority": 3,
+            "status": "Active",
+            "progress": 35,
+            "next_action": "Implement Decisions interface and continue Executive Cockpit modules."
+          },
+          {
+            "id": "SP-004",
+            "title": "Develop CompanyOS",
+            "priority": 4,
+            "status": "Architecture",
+            "progress": 15,
+            "next_action": "Capture validated executive workflows from JasperOS usage."
+          },
+          {
+            "id": "SP-005",
+            "title": "AI Consulting & Products",
+            "priority": 5,
+            "status": "Active",
+            "progress": 10,
+            "next_action": "Resume after current launch priorities are unblocked."
+          }
+        ],
+        "decisions": [
+          {
+            "id": "DEC-2026-07-09-001",
+            "title": "Freeze ExecutiveStateProtocol v3.0",
+            "decision": "Approved",
+            "reasoning": "Establish a stable canonical API between Executive Office, JasperOS and CompanyOS.",
+            "impact": "Future briefings become machine-readable and backward compatible.",
+            "date": "2026-07-09"
+          },
+          {
+            "id": "DEC-2026-07-09-002",
+            "title": "Separate Decision Layer from Execution Layer",
+            "decision": "Approved",
+            "reasoning": "Executive Office owns decisions while project spaces own implementation.",
+            "impact": "Improves focus and prevents project clutter.",
+            "date": "2026-07-09"
+          },
+          {
+            "id": "DEC-2026-07-09-003",
+            "title": "Waiting On Register",
+            "decision": "Approved",
+            "reasoning": "Executives manage dependencies, not only tasks.",
+            "impact": "Core CompanyOS executive workflow.",
+            "date": "2026-07-09"
+          }
+        ],
+        "waiting_on_register": [
+          {
+            "owner": "Guillaume",
+            "dependency": "Kamëntsá artisan photos and European inventory",
+            "blocks": [
+              "Campaign images",
+              "Donor appreciation packages",
+              "GoFundMe launch"
+            ],
+            "priority": "High",
+            "last_follow_up": null,
+            "next_follow_up": null
+          },
+          {
+            "owner": "Guillaume",
+            "dependency": "Earth Bridge Alliance legal signature",
+            "blocks": [
+              "Foundation registration"
+            ],
+            "priority": "High",
+            "last_follow_up": null,
+            "next_follow_up": null
+          }
+        ],
+        "risks": [
+          {
+            "title": "Crowdfunding launch delay",
+            "severity": "Medium",
+            "mitigation": "Launch immediately once campaign assets arrive."
+          },
+          {
+            "title": "Foundation registration delay",
+            "severity": "Medium",
+            "mitigation": "Submit documents immediately after signature."
+          },
+          {
+            "title": "Opening additional initiatives",
+            "severity": "Low",
+            "mitigation": "Maintain focus on current strategic sequence."
+          }
+        ],
+        "opportunities": [
+          {
+            "title": "First Earth Bridge Alliance success story",
+            "description": "Successful completion of Phase 1 strengthens institutional credibility.",
+            "potential_value": "High",
+            "recommended_action": "Document campaign progress from day one."
+          },
+          {
+            "title": "ExecutiveStateProtocol",
+            "description": "Stable executive contract enables JasperOS implementation.",
+            "potential_value": "High",
+            "recommended_action": "Implement parser and dashboard components."
+          }
+        ],
+        "cross_project_dependencies": [
+          {
+            "from": "Vinyiabtumayokan",
+            "to": "Earth Bridge Alliance",
+            "relationship": "Successful crowdfunding becomes institutional proof of execution."
+          },
+          {
+            "from": "Executive Office",
+            "to": "JasperOS",
+            "relationship": "ExecutiveStateProtocol powers dashboard and executive interface."
+          },
+          {
+            "from": "Executive Office",
+            "to": "CompanyOS",
+            "relationship": "Validated executive workflows become reusable platform capabilities."
+          }
+        ],
+        "executive_actions": [
+          {
+            "title": "Implement ExecutiveStateProtocol parser",
+            "reason": "Foundation for JasperOS",
+            "estimated_time": "2h",
+            "priority": "Highest"
+          },
+          {
+            "title": "Maintain GoFundMe launch readiness",
+            "reason": "Highest-impact external initiative",
+            "estimated_time": "30m",
+            "priority": "High"
+          },
+          {
+            "title": "Implement Executive Cockpit decisions interface",
+            "reason": "Complete executive state visualization layer",
+            "estimated_time": "2h",
+            "priority": "High"
+          }
+        ],
+        "executive_reviews": {
+          "daily": {
+            "status": "Portfolio stable. JasperOS Executive Cockpit foundation operational. External dependencies remain primary execution constraints."
+          },
+          "weekly": {},
+          "monthly": {},
+          "quarterly": {}
+        }
+      },
+      "portfolio": {
+        "domains": {
+          "mission": [
+            "Earth Bridge Alliance",
+            "Vinyiabtumayokan",
+            "Colombia Initiatives"
+          ],
+          "technology": [
+            "JasperOS",
+            "CompanyOS"
+          ],
+          "land": [
+            "Pueblo Mágico"
+          ],
+          "income": [
+            "AI Consulting & Products"
+          ],
+          "personal": [
+            "Health",
+            "Learning",
+            "Languages"
+          ]
+        },
+        "projects": [
+          {
+            "id": "PRJ-001",
+            "name": "Executive Office",
+            "status": "Active",
+            "health": "Green",
+            "progress": 100,
+            "blockers": [],
+            "waiting_on": [],
+            "repositories": [],
+            "next_actions": [
+              "Generate daily executive state"
+            ],
+            "recent_decisions": [
+              "ExecutiveStateProtocol v3.0 frozen"
+            ]
+          },
+          {
+            "id": "PRJ-002",
+            "name": "JasperOS",
+            "status": "Active",
+            "health": "Green",
+            "progress": 35,
+            "repositories": [
+              "REPO-001"
+            ],
+            "blockers": [],
+            "waiting_on": [],
+            "next_actions": [
+              "Implement Decisions interface",
+              "Build remaining dashboard widgets"
+            ],
+            "recent_decisions": [
+              "ExecutiveStateProtocol adopted as canonical data source.",
+              "JasperOS maintained as executive layer separate from CompanyOS.",
+              "Executive Cockpit foundation validated."
+            ]
+          },
+          {
+            "id": "PRJ-003",
+            "name": "CompanyOS",
+            "status": "Architecture",
+            "health": "Green",
+            "progress": 15,
+            "repositories": [
+              "REPO-002"
+            ],
+            "blockers": [],
+            "waiting_on": [],
+            "next_actions": [
+              "Capture validated executive workflows"
+            ],
+            "recent_decisions": [
+              "Executive Office becomes reasoning layer."
+            ]
+          },
+          {
+            "id": "PRJ-004",
+            "name": "Vinyiabtumayokan",
+            "status": "Launch Preparation",
+            "health": "Yellow",
+            "progress": 90,
+            "blockers": [
+              "Campaign assets"
+            ],
+            "waiting_on": [
+              "Guillaume"
+            ],
+            "repositories": [],
+            "next_actions": [
+              "Launch campaign"
+            ],
+            "recent_decisions": [
+              "Funding ladder finalized."
+            ]
+          },
+          {
+            "id": "PRJ-005",
+            "name": "Earth Bridge Alliance",
+            "status": "Registration Pending",
+            "health": "Yellow",
+            "progress": 95,
+            "blockers": [
+              "Legal signature"
+            ],
+            "waiting_on": [
+              "Guillaume"
+            ],
+            "repositories": [],
+            "next_actions": [
+              "Submit incorporation"
+            ],
+            "recent_decisions": [
+              "Foundation remains long-term institutional vehicle."
+            ]
+          }
+        ],
+        "products": [
+          {
+            "name": "JasperOS",
+            "stage": "Implementation",
+            "priority": "Highest"
+          },
+          {
+            "name": "CompanyOS",
+            "stage": "Architecture",
+            "priority": "High"
+          },
+          {
+            "name": "Meeting Memory",
+            "stage": "Planning",
+            "priority": "Medium"
+          }
+        ],
+        "repositories": [
+          "REPO-001",
+          "REPO-002"
+        ],
+        "consulting_pipeline": {
+          "leads": [],
+          "active_proposals": [],
+          "active_clients": [],
+          "completed_projects": []
+        }
+      },
+      "operations": {
+        "tasks": {
+          "today": [
+            {
+              "title": "Align JasperOS dashboard with ExecutiveStateProtocol v3.0",
+              "tag": "JasperOS",
+              "time": "Completed"
+            },
+            {
+              "title": "Validate Executive Cockpit structure and navigation",
+              "tag": "UI",
+              "time": "Completed"
+            }
+          ],
+          "this_week": [],
+          "delegated": [],
+          "blocked": [
+            "GoFundMe launch",
+            "Foundation registration"
+          ],
+          "completed_recently": [
+            "ExecutiveStateProtocol v3.0 frozen",
+            "JasperOS Executive Cockpit foundation implemented",
+            "Dashboard aligned with canonical executive state",
+            "JasperOS and CompanyOS architectural separation clarified"
+          ]
+        },
+        "calendar": {
+          "today": [],
+          "upcoming": []
+        },
+        "meetings": [],
+        "github_workspace": {
+          "organizations": [
+            "jasper-meyer"
+          ],
+          "repositories": [
+            "REPO-001",
+            "REPO-002"
+          ],
+          "issues": [],
+          "pull_requests": [],
+          "deployments": [],
+          "actions": [],
+          "alerts": []
+        },
+        "metrics": {
+          "projects_active": 5,
+          "blocked_items": 2,
+          "focus_score": 95,
+          "weekly_progress": 25
+        }
+      },
+      "knowledge": {
+        "new_insights": [
+          "ExecutiveStateProtocol v3.0 is the canonical executive API.",
+          "Executive dashboards should consume state, not define it.",
+          "JasperOS and CompanyOS require separate architectural identities."
+        ],
+        "open_questions": [
+          "How should JasperOS synchronize updates back to the Executive Office?"
+        ],
+        "ideas": [
+          "Generate dashboards dynamically from ExecutiveStateProtocol."
+        ],
+        "personal": {
+          "learning": [
+            "Executive system architecture",
+            "Dashboard design"
+          ]
+        }
+      },
+      "presentation": {
+        "notifications": [
+          {
+            "type": "Information",
+            "message": "ExecutiveStateProtocol v3.0 is active."
+          }
+        ],
+        "dashboard": {
+          "hero_project": "JasperOS",
+          "hero_metric": "35%",
+          "highlight": "JasperOS Executive Cockpit foundation operational and aligned with ExecutiveStateProtocol v3.0.",
+          "alert": ""
+        }
+      }
+    }
+  ]
+}

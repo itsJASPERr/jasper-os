@@ -1,0 +1,84 @@
+{
+  "tasks": {
+    "today": [
+      {
+        "title": "Implement JasperOS ExecutiveStateProtocol domain provider architecture",
+        "tag": "JasperOS",
+        "time": "Active"
+      },
+      {
+        "title": "Split ExecutiveStateProtocol v3.0.0 into domain files while maintaining canonical contract",
+        "tag": "Architecture",
+        "time": "Active"
+      },
+      {
+        "title": "Update Earth Bridge Alliance repositories with signed founding documents",
+        "tag": "Earth Bridge Alliance",
+        "time": "Next"
+      },
+      {
+        "title": "Prepare submission of incorporation documents to official government services",
+        "tag": "Earth Bridge Alliance",
+        "time": "Next"
+      },
+      {
+        "title": "Contact Johan and establish recurring coordination meetings",
+        "tag": "Vinyiabtumayokan",
+        "time": "Next"
+      }
+    ],
+    "this_week": [
+      {
+        "title": "Complete JasperOS executive state consumption layer",
+        "priority": "High"
+      },
+      {
+        "title": "Advance Earth Bridge Alliance legal registration process",
+        "priority": "High"
+      },
+      {
+        "title": "Establish Colombia coordination cadence",
+        "priority": "High"
+      }
+    ],
+    "delegated": [],
+    "blocked": [
+      "Vinyiabtumayokan launch depends on improved Johan coordination and remaining external confirmations"
+    ],
+    "completed_recently": [
+      "ExecutiveStateProtocol v3.0.0 frozen",
+      "JasperOS Executive Cockpit foundation implemented",
+      "Dashboard aligned with canonical executive state",
+      "JasperOS and CompanyOS architectural separation clarified",
+      "Earth Bridge Alliance founding documents received and founding phase completed"
+    ]
+  },
+  "calendar": {
+    "today": [],
+    "upcoming": []
+  },
+  "meetings": [],
+  "github_workspace": {
+    "organizations": [
+      "itsJASPERr"
+    ],
+    "repositories": [
+      "github:itsJASPERr/kamentsa-digital-territory",
+      "github:itsJASPERr/jasper-os",
+      "github:itsJASPERr/company-os",
+      "github:itsJASPERr/earth-bridge-alliance",
+      "github:itsJASPERr/earth-bridge-alliance-governance"
+    ],
+    "issues": [],
+    "pull_requests": [],
+    "deployments": [],
+    "actions": [],
+    "alerts": []
+  },
+  "metrics": {
+    "projects_active": 5,
+    "blocked_items": 1,
+    "focus_score": 95,
+    "weekly_progress": 25
+  }
+}

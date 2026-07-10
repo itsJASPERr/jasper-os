@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Crowdfunding launch delay",
+    "severity": "Medium",
+    "mitigation": "Launch immediately once campaign assets arrive."
+  },
+  {
+    "title": "Foundation registration delay",
+    "severity": "Medium",
+    "mitigation": "Submit documents immediately after signature."
+  },
+  {
+    "title": "Opening additional initiatives",
+    "severity": "Low",
+    "mitigation": "Maintain focus on current strategic sequence."
+  }
+]

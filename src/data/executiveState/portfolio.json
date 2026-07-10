@@ -1,0 +1,169 @@
+{
+  "domains": {
+    "mission": [
+      "Earth Bridge Alliance",
+      "Vinyiabtumayokan",
+      "Colombia Initiatives"
+    ],
+    "technology": [
+      "JasperOS",
+      "CompanyOS"
+    ],
+    "land": [
+      "Pueblo Mágico"
+    ],
+    "income": [
+      "AI Consulting & Products"
+    ],
+    "personal": [
+      "Health",
+      "Learning",
+      "Languages"
+    ]
+  },
+  "projects": [
+    {
+      "id": "PRJ-001",
+      "name": "Executive Office",
+      "status": "Active",
+      "health": "Green",
+      "progress": 100,
+      "blockers": [],
+      "waiting_on": [],
+      "repositories": [],
+      "next_actions": [
+        "Generate daily executive state"
+      ],
+      "recent_decisions": [
+        "ExecutiveStateProtocol v3.0 frozen"
+      ]
+    },
+    {
+      "id": "PRJ-002",
+      "name": "JasperOS",
+      "status": "Active",
+      "health": "Green",
+      "progress": 35,
+      "repositories": [
+        "github:itsJASPERr/jasper-os"
+      ],
+      "blockers": [],
+      "waiting_on": [],
+      "next_actions": [
+        "Implement Decisions interface",
+        "Build remaining Executive Cockpit widgets"
+      ],
+      "recent_decisions": [
+        "ExecutiveStateProtocol v3.0.0 adopted as canonical data source",
+        "JasperOS maintained as executive layer separate from CompanyOS",
+        "Executive Cockpit foundation validated"
+      ]
+    },
+    {
+      "id": "PRJ-003",
+      "name": "CompanyOS",
+      "status": "Architecture",
+      "health": "Green",
+      "progress": 15,
+      "repositories": [
+        "github:itsJASPERr/company-os"
+      ],
+      "blockers": [],
+      "waiting_on": [],
+      "next_actions": [
+        "Capture validated executive workflows from JasperOS",
+        "Define CompanyOS operational modules"
+      ],
+      "recent_decisions": [
+        "Executive Office becomes reasoning layer",
+        "CompanyOS evolves from validated executive workflows"
+      ]
+    },
+    {
+      "id": "PRJ-004",
+      "name": "Vinyiabtumayokan",
+      "status": "Launch Preparation",
+      "health": "Yellow",
+      "progress": 90,
+      "repositories": [
+        "github:itsJASPERr/kamentsa-digital-territory"
+      ],
+      "blockers": [
+        "Waiting on Guillaume confirmation",
+        "Communication cadence with Johan is insufficient"
+      ],
+      "waiting_on": [
+        "Guillaume",
+        "Johan"
+      ],
+      "next_actions": [
+        "Schedule recurring meeting cadence with Johan",
+        "Define Colombia coordination agenda and reporting structure",
+        "Resolve pending Guillaume dependency",
+        "Launch campaign",
+        "Continue digital territory platform development"
+      ],
+      "recent_decisions": [
+        "Funding ladder finalized",
+        "Digital territory repository established",
+        "Establish recurring coordination meetings with Johan"
+      ]
+    },
+    {
+      "id": "PRJ-005",
+      "name": "Earth Bridge Alliance",
+      "status": "Registration Execution",
+      "health": "Green",
+      "progress": 97,
+      "repositories": [
+        "github:itsJASPERr/earth-bridge-alliance",
+        "github:itsJASPERr/earth-bridge-alliance-governance"
+      ],
+      "blockers": [],
+      "waiting_on": [],
+      "next_actions": [
+        "Update repository with signed PDFs",
+        "Freeze founding documentation process",
+        "Submit documents to official government services",
+        "Begin formal legal registration process",
+        "Begin governance infrastructure setup"
+      ],
+      "recent_decisions": [
+        "Received signed founding documents from Guillaume",
+        "Founding process frozen after signed documents received",
+        "Transitioned from founding phase to registration execution",
+        "Governance repository established"
+      ]
+    }
+  ],
+  "products": [
+    {
+      "name": "JasperOS",
+      "stage": "Implementation",
+      "priority": "Highest"
+    },
+    {
+      "name": "CompanyOS",
+      "stage": "Architecture",
+      "priority": "High"
+    },
+    {
+      "name": "Meeting Memory",
+      "stage": "Planning",
+      "priority": "Medium"
+    }
+  ],
+  "repositories": [
+    "github:itsJASPERr/kamentsa-digital-territory",
+    "github:itsJASPERr/jasper-os",
+    "github:itsJASPERr/company-os",
+    "github:itsJASPERr/earth-bridge-alliance",
+    "github:itsJASPERr/earth-bridge-alliance-governance"
+  ],
+  "consulting_pipeline": {
+    "leads": [],
+    "active_proposals": [],
+    "active_clients": [],
+    "completed_projects": []
+  }
+}

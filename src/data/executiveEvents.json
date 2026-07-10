@@ -1,0 +1,66 @@
+[
+  {
+    "id": "EVENT-2026-07-09-001",
+    "type": "WORK_ITEM_CREATED",
+    "timestamp": "2026-07-09T10:00:00-03:00",
+    "actor": "System",
+    "entity": {
+      "type": "work_item",
+      "id": "ITEM-2026-07-09-001"
+    },
+    "description": "Created initial JasperOS implementation work item.",
+    "metadata": {}
+  },
+  {
+    "id": "EVENT-2026-07-09-002",
+    "type": "WORK_ITEM_STATUS_CHANGED",
+    "timestamp": "2026-07-09T12:30:00-03:00",
+    "actor": "Jasper",
+    "entity": {
+      "type": "work_item",
+      "id": "ITEM-2026-07-09-001"
+    },
+    "changes": [
+      {
+        "field": "status",
+        "from": "Inbox",
+        "to": "Active"
+      }
+    ],
+    "description": "Started implementation of the ExecutiveStateProtocol parser.",
+    "metadata": {}
+  },
+  {
+    "id": "EVENT-2026-07-09-003",
+    "type": "WORK_ITEM_UPDATED",
+    "timestamp": "2026-07-09T15:00:00-03:00",
+    "actor": "Jasper",
+    "entity": {
+      "type": "work_item",
+      "id": "ITEM-2026-07-09-001"
+    },
+    "changes": [
+      {
+        "field": "description",
+        "from": "Build parser layer",
+        "to": "Build parser layer with validation and graceful UI error handling"
+      }
+    ],
+    "description": "Expanded parser requirements after architecture review.",
+    "metadata": {}
+  },
+  {
+    "id": "EVENT-2026-07-09-004",
+    "type": "WORK_ITEM_LINKED",
+    "timestamp": "2026-07-09T16:00:00-03:00",
+    "actor": "System",
+    "entity": {
+      "type": "work_item",
+      "id": "ITEM-2026-07-09-001"
+    },
+    "description": "Linked WorkItem to JasperOS Executive domain.",
+    "metadata": {
+      "domain": "executive"
+    }
+  }
+]

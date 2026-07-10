@@ -1,26 +1,132 @@
 @import "tailwindcss";
 
+/* ==========================================================================
+   JasperOS Design System
+   ========================================================================== */
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Backgrounds */
+  --os-bg: #090a0f;
+  --os-surface: #11131c;
+  --os-surface-elevated: #171b26;
+
+  /* Borders */
+  --os-border: #1e2235;
+  --os-border-strong: #2b3149;
+
+  /* Brand */
+  --os-brand: #00f2fe;
+  --os-accent: #7928ca;
+
+  /* Text */
+  --os-text: #ffffff;
+  --os-text-muted: #6b7280;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  /* Colors */
+  --color-os-bg: var(--os-bg);
+  --color-os-surface: var(--os-surface);
+  --color-os-surface-elevated: var(--os-surface-elevated);
+
+  --color-os-border: var(--os-border);
+  --color-os-border-strong: var(--os-border-strong);
+
+  --color-os-brand: var(--os-brand);
+  --color-os-accent: var(--os-accent);
+
+  --color-os-text: var(--os-text);
+  --color-os-textMuted: var(--os-text-muted);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+html,
+body {
+  min-height: 100%;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  @apply bg-os-bg text-white antialiased;
+
+  font-family:
+    Inter,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+
+  /* Ambient executive background */
+  background-image:
+    radial-gradient(
+      at 0% 0%,
+      rgb(0 242 254 / 0.05) 0px,
+      transparent 50%
+    ),
+    radial-gradient(
+      at 100% 0%,
+      rgb(121 40 202 / 0.04) 0px,
+      transparent 45%
+    );
+
+  background-attachment: fixed;
+}
+
+/* ==========================================================================
+   Text Selection
+   ========================================================================== */
+
+::selection {
+  background: rgb(0 242 254 / 0.30);
+  color: white;
+}
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+
+input[type="checkbox"] {
+  @apply rounded border-os-border bg-os-bg text-os-brand;
+  @apply w-4 h-4 cursor-pointer transition-all;
+  @apply focus:ring-1 focus:ring-os-brand focus:ring-offset-0 focus:outline-none;
+
+  appearance: none;
+  position: relative;
+}
+
+input[type="checkbox"]:checked {
+  @apply bg-os-brand border-os-brand;
+}
+
+input[type="checkbox"]:checked::after {
+  content: "✓";
+
+  @apply absolute inset-0;
+  @apply flex items-center justify-center;
+  @apply text-[10px] font-bold text-white;
+}
+
+/* ==========================================================================
+   Scrollbars
+   ========================================================================== */
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--os-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--os-border);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--os-border-strong);
 }
