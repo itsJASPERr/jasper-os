@@ -2,73 +2,47 @@
 
 import { usePathname } from "next/navigation";
 import Link from "next/link";
-import { ChevronRight } from "lucide-react";
 
 export default function Breadcrumbs() {
   const pathname = usePathname();
+  const segments = pathname.split("/").filter(Boolean);
 
-  const segments = pathname
-    .split("/")
-    .filter(Boolean);
+  if (segments.length === 0) return null;
+
+  function formatSegment(value: string) {
+    return value
+      .replaceAll("-", " ")
+      .replace(/\b\w/g, (char) => char.toUpperCase());
+  }
 
   return (
-    <div
-      className="
-        flex
-        items-center
-        gap-2
-        border-b
-        border-os-border
-        bg-os-bg
-        px-4
-        py-2
-        text-xs
-        text-os-textMuted
-      "
+    <nav
+      className="flex items-center gap-2 px-4 py-3 font-mono text-xs md:px-8"
+      aria-label="Breadcrumb"
     >
-
       <Link
         href="/"
-        className="
-          hover:text-os-brand
-        "
+        className="text-os-textMuted hover:text-os-brand"
       >
-        Home
+        Executive
       </Link>
 
-
       {segments.map((segment, index) => (
-        <div
-          key={segment}
-          className="flex items-center gap-2"
-        >
+        <div key={segment} className="flex items-center gap-2">
+          <span className="text-os-textMuted">/</span>
 
-          <ChevronRight
-            size={12}
-          />
-
-          <span
-            className={
-              index === segments.length - 1
-                ? "text-os-brand"
-                : "hover:text-white"
-            }
-          >
-            {formatSegment(segment)}
-          </span>
-
+          {index === segments.length - 1 ? (
+            <span className="text-white">{formatSegment(segment)}</span>
+          ) : (
+            <Link
+              href={`/${segments.slice(0, index + 1).join("/")}`}
+              className="text-os-textMuted hover:text-os-brand"
+            >
+              {formatSegment(segment)}
+            </Link>
+          )}
         </div>
       ))}
-
-    </div>
+    </nav>
   );
-}
-
-
-function formatSegment(value: string) {
-  return value
-    .replaceAll("-", " ")
-    .replace(/\b\w/g, (char) =>
-      char.toUpperCase()
-    );
 }

@@ -5,7 +5,7 @@ import { getWorkItemById } from "./workItemService";
 import type { EntitySummary } from "../contracts/entitySummary";
 import type { ExecutiveEntityReference } from "../contracts/executiveEntity";
 
-import { route } from "../../../app/routing/route";
+import { route } from "@/lib/route";
 
 export function resolveEntity(
     entity: ExecutiveEntityReference

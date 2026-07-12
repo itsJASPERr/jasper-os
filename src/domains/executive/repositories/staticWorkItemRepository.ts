@@ -7,7 +7,7 @@ import type {
 } from "./workItemRepository";
 
 
-let items = workItems as WorkItem[];
+const items = workItems as WorkItem[];
 
 
 export const staticWorkItemRepository: WorkItemRepository = {

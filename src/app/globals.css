@@ -2,25 +2,26 @@
 
 /* ==========================================================================
    JasperOS Design System
+   Source of truth: tailwind.config.mjs + global.css
    ========================================================================== */
 
 :root {
   /* Backgrounds */
-  --os-bg: #090a0f;
-  --os-surface: #11131c;
-  --os-surface-elevated: #171b26;
+  --os-bg: #030712;
+  --os-surface: #0B1329;
+  --os-surface-elevated: #111827;
 
   /* Borders */
-  --os-border: #1e2235;
-  --os-border-strong: #2b3149;
+  --os-border: #1E293B;
+  --os-border-strong: #334155;
 
   /* Brand */
-  --os-brand: #00f2fe;
-  --os-accent: #7928ca;
+  --os-brand: #3B82F6;
+  --os-accent: #10B981;
 
   /* Text */
   --os-text: #ffffff;
-  --os-text-muted: #6b7280;
+  --os-text-muted: #94A3B8;
 }
 
 @theme inline {
@@ -59,17 +60,16 @@ body {
     "Segoe UI",
     sans-serif;
 
-  /* Ambient executive background */
   background-image:
     radial-gradient(
       at 0% 0%,
-      rgb(0 242 254 / 0.05) 0px,
+      rgba(59, 130, 246, 0.05) 0px,
       transparent 50%
     ),
     radial-gradient(
       at 100% 0%,
-      rgb(121 40 202 / 0.04) 0px,
-      transparent 45%
+      rgba(16, 185, 129, 0.02) 0px,
+      transparent 40%
     );
 
   background-attachment: fixed;
@@ -80,7 +80,7 @@ body {
    ========================================================================== */
 
 ::selection {
-  background: rgb(0 242 254 / 0.30);
+  background: rgba(59, 130, 246, 0.30);
   color: white;
 }
 
@@ -119,14 +119,14 @@ input[type="checkbox"]:checked::after {
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--os-bg);
+  background: #030712;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--os-border);
+  background: #1E293B;
   border-radius: 9999px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--os-border-strong);
+  background: #334155;
 }

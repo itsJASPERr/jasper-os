@@ -7,7 +7,7 @@ import type {
 } from "./executiveEventRepository";
 
 
-let events: ExecutiveEvent[] = [];
+const events: ExecutiveEvent[] = [];
 
 
 export const staticExecutiveEventRepository:

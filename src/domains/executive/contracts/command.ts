@@ -3,7 +3,7 @@ type CommandSource =
   | "ai_agent"
   | "system";
 
-interface ExecutiveCommand {
+export interface ExecutiveCommand {
   id: string;
   source: CommandSource;
   action: string;

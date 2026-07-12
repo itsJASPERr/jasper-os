@@ -96,9 +96,9 @@ const ReviewSchema = z.object({
 
 const ExecutiveReviewsSchema = z.object({
   daily: ReviewSchema,
-  weekly: z.record(z.unknown()),
-  monthly: z.record(z.unknown()),
-  quarterly: z.record(z.unknown()),
+  weekly: z.record(z.string(), z.unknown()),
+  monthly: z.record(z.string(), z.unknown()),
+  quarterly: z.record(z.string(), z.unknown()),
 });
 
 
@@ -400,4 +400,42 @@ export type PortfolioProject =
 export type StrategicPriority =
   ExecutiveState["executive"]["strategic_priorities"][number];
 
-export type Generated = z.infer<typeof GeneratedSchema>
+export type Generated = z.infer<typeof GeneratedSchema>;
+
+export type ExecutiveUser = z.infer<typeof UserSchema>;
+
+export type ExecutiveProtocol = z.infer<typeof ProtocolSchema>;
+
+export type ExecutiveGenerated = z.infer<typeof GeneratedSchema>;
+
+export type ExecutiveBriefing = z.infer<typeof BriefingSchema>;
+
+export type ExecutiveRisk = z.infer<typeof RiskSchema>;
+
+export type ExecutiveOpportunity = z.infer<typeof OpportunitySchema>;
+
+export type ExecutiveNotification = z.infer<
+  typeof PresentationSchema
+>["notifications"][number];
+
+export type DashboardPresentation = z.infer<
+  typeof PresentationSchema
+>["dashboard"];
+
+export type ExecutiveAction = z.infer<typeof ExecutiveActionSchema>;
+
+export type ExecutiveReviews = z.infer<typeof ExecutiveReviewsSchema>;
+
+export type WaitingOnItem = z.infer<typeof WaitingOnSchema>;
+
+export type CrossProjectDependency = z.infer<
+  typeof CrossProjectDependencySchema
+>;
+
+export type OperationsMetrics = z.infer<typeof OperationsSchema>["metrics"];
+
+export type OperationsTasks = z.infer<typeof OperationsSchema>["tasks"];
+
+export type Portfolio = z.infer<typeof PortfolioSchema>;
+
+export type PortfolioProduct = z.infer<typeof ProductSchema>;
