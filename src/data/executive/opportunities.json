@@ -1,20 +1,32 @@
 [
   {
     "title": "First Earth Bridge Alliance success story",
-    "description": "Successful completion of Phase 1 strengthens institutional credibility.",
+    "description": "Successful completion of Phase 1 strengthens institutional credibility and creates a foundation for future partnerships.",
     "potential_value": "High",
-    "recommended_action": "Document campaign progress from day one."
+    "recommended_action": "Document campaign progress, institutional milestones, and execution evidence from day one."
   },
   {
     "title": "ExecutiveStateProtocol",
-    "description": "Stable executive contract enables JasperOS implementation.",
+    "description": "Stable executive contract enables JasperOS implementation and future CompanyOS consumption.",
     "potential_value": "High",
-    "recommended_action": "Implement parser and dashboard components."
+    "recommended_action": "Continue implementing protocol-driven executive interfaces and state providers."
   },
   {
     "title": "Domain-based executive architecture",
-    "description": "Domain providers allow JasperOS and future CompanyOS systems to scale without schema disruption.",
+    "description": "Domain providers allow JasperOS and future CompanyOS systems to scale without changing the canonical executive contract.",
     "potential_value": "High",
     "recommended_action": "Continue building reusable executive state consumption patterns."
+  },
+  {
+    "title": "JasperOS Next.js foundation",
+    "description": "Completed framework migration creates a production-ready foundation for Executive Cockpit development and future platform capabilities.",
+    "potential_value": "High",
+    "recommended_action": "Focus on executive workflows, interfaces, and operational validation."
+  },
+  {
+    "title": "AI-assisted development environment",
+    "description": "Ubuntu VM, Code Server, and OpenCode create a repeatable engineering workflow connecting executive decisions with implementation.",
+    "potential_value": "High",
+    "recommended_action": "Develop standardized workflows for AI-assisted repository changes and future automation."
   }
 ]

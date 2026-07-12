@@ -10,6 +10,7 @@ import {
   Globe,
   Target,
   Brain,
+  Scale,
   Settings,
 } from "lucide-react";
 
@@ -21,6 +22,7 @@ const navigation = [
   { label: "Domains", href: routes.domains, icon: Globe },
   { label: "Strategy", href: routes.strategy, icon: Target },
   { label: "Intelligence", href: routes.intelligence, icon: Brain },
+  { label: "Decisions", href: routes.decisions, icon: Scale },
   { label: "Settings", href: routes.settings, icon: Settings },
 ];
 

@@ -15,13 +15,21 @@
     {
       "type": "Architecture",
       "message": "Executive Office, JasperOS, and CompanyOS identities are separated as independent but connected layers."
+    },
+    {
+      "type": "Technology",
+      "message": "JasperOS completed migration from Astro to Next.js while maintaining the canonical executive state architecture."
+    },
+    {
+      "type": "Infrastructure",
+      "message": "AI-assisted development workflow established through Ubuntu VM, Code Server, and OpenCode."
     }
   ],
   "dashboard": {
-    "hero_project": "Earth Bridge Alliance",
-    "hero_metric": "97%",
-    "highlight": "Signed founding documents received. Earth Bridge Alliance has completed its founding phase and entered legal registration execution.",
+    "hero_project": "JasperOS",
+    "hero_metric": "50%",
+    "highlight": "JasperOS completed the Astro to Next.js migration. The project has moved from framework transition into Executive Cockpit implementation and operational validation.",
     "alert": "Vinyiabtumayokan execution requires improved coordination cadence with Johan and remaining external confirmations.",
-    "secondary_highlight": "JasperOS Executive Cockpit is evolving into a protocol-driven executive operating interface."
+    "secondary_highlight": "Earth Bridge Alliance remains in legal registration execution after completion of the founding phase."
   }
 }
