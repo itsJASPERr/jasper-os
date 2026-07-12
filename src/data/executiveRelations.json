@@ -2,27 +2,53 @@
   {
     "id": "REL-001",
     "from": {
-      "type": "work_item",
-      "id": "ITEM-001"
+      "type": "project",
+      "id": "PRJ-004"
     },
-    "relation": "implements",
+    "relation": "enables",
     "to": {
       "type": "project",
-      "id": "PRJ-002"
+      "id": "PRJ-005"
     },
-    "description": "Work item contributes to JasperOS implementation"
+    "description": "Successful crowdfunding becomes institutional proof of execution."
   },
   {
     "id": "REL-002",
     "from": {
       "type": "project",
+      "id": "PRJ-001"
+    },
+    "relation": "powers",
+    "to": {
+      "type": "project",
       "id": "PRJ-002"
     },
-    "relation": "created_by",
-    "to": {
-      "type": "decision",
-      "id": "DEC-2026-07-09-001"
+    "description": "ExecutiveStateProtocol powers dashboard and executive interface."
+  },
+  {
+    "id": "REL-003",
+    "from": {
+      "type": "project",
+      "id": "PRJ-001"
     },
-    "description": "JasperOS architecture follows this executive decision"
+    "relation": "validates",
+    "to": {
+      "type": "project",
+      "id": "PRJ-003"
+    },
+    "description": "Validated executive workflows become reusable platform capabilities."
+  },
+  {
+    "id": "REL-004",
+    "from": {
+      "type": "project",
+      "id": "PRJ-002"
+    },
+    "relation": "validates",
+    "to": {
+      "type": "project",
+      "id": "PRJ-003"
+    },
+    "description": "JasperOS validates executive workflows that can later become CompanyOS operational modules."
   }
 ]

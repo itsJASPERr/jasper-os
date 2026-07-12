@@ -7,11 +7,21 @@
   {
     "title": "Foundation registration delay",
     "severity": "Medium",
-    "mitigation": "Submit documents immediately after signature."
+    "mitigation": "Submit documents immediately after signature and required preparation steps."
   },
   {
     "title": "Opening additional initiatives",
     "severity": "Low",
     "mitigation": "Maintain focus on current strategic sequence."
+  },
+  {
+    "title": "Building UI faster than operating model",
+    "severity": "Medium",
+    "mitigation": "Maintain Protocol → Logic → Interface discipline."
+  },
+  {
+    "title": "Premature CompanyOS expansion",
+    "severity": "Low",
+    "mitigation": "Continue validating workflows through JasperOS before operational scaling."
   }
 ]

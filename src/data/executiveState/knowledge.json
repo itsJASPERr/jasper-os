@@ -6,25 +6,34 @@
     "The portfolio now has dedicated repositories representing mission, governance, executive infrastructure, and operating system layers.",
     "Earth Bridge Alliance governance infrastructure is separated from the main institutional repository.",
     "ExecutiveStateProtocol can be consumed through domain-based providers while maintaining a single immutable contract.",
-    "Domain separation improves implementation speed without requiring schema evolution."
+    "Domain separation improves implementation speed without requiring schema evolution.",
+    "Executive state storage and executive contract are separate architectural layers.",
+    "Historical executive information follows an append-only model.",
+    "JasperOS is the validation environment for future CompanyOS capabilities."
   ],
+
   "open_questions": [
     "How should JasperOS synchronize updates back to the Executive Office?",
     "Should domain providers generate complete API responses or only expose domain-specific state endpoints?",
-    "What authentication and synchronization model should CompanyOS use when consuming executive state?"
+    "What authentication and synchronization model should CompanyOS use when consuming executive state?",
+    "How should future AI workers interact with ExecutiveStateProtocol without modifying the canonical contract?"
   ],
+
   "ideas": [
     "Generate dashboards dynamically from ExecutiveStateProtocol.",
     "Create domain-based providers that expose executive state as API-like responses.",
     "Use JasperOS as the first validation environment for future CompanyOS capabilities.",
-    "Create automated executive briefing generation pipelines."
+    "Create automated executive briefing generation pipelines.",
+    "Develop executive state synchronization workflows between operational systems and the Executive Office."
   ],
+
   "personal": {
     "learning": [
       "Executive system architecture",
       "Dashboard design",
       "Domain-driven state architecture",
-      "Machine-readable executive workflows"
+      "Machine-readable executive workflows",
+      "Operating system design principles"
     ]
   }
 }

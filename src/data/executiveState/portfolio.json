@@ -35,7 +35,8 @@
         "Generate daily executive state"
       ],
       "recent_decisions": [
-        "ExecutiveStateProtocol v3.0 frozen"
+        "ExecutiveStateProtocol v3.0 frozen",
+        "Append-only executive history maintained"
       ]
     },
     {
@@ -51,12 +52,14 @@
       "waiting_on": [],
       "next_actions": [
         "Implement Decisions interface",
-        "Build remaining Executive Cockpit widgets"
+        "Build remaining Executive Cockpit widgets",
+        "Complete domain-based state consumption layer"
       ],
       "recent_decisions": [
         "ExecutiveStateProtocol v3.0.0 adopted as canonical data source",
         "JasperOS maintained as executive layer separate from CompanyOS",
-        "Executive Cockpit foundation validated"
+        "Executive Cockpit foundation validated",
+        "Domain-based state providers adopted"
       ]
     },
     {
@@ -76,7 +79,8 @@
       ],
       "recent_decisions": [
         "Executive Office becomes reasoning layer",
-        "CompanyOS evolves from validated executive workflows"
+        "CompanyOS evolves from validated executive workflows",
+        "JasperOS and CompanyOS maintain separate identities"
       ]
     },
     {
@@ -90,7 +94,7 @@
       ],
       "blockers": [
         "Waiting on Guillaume confirmation",
-        "Communication cadence with Johan is insufficient"
+        "Communication cadence with Johan requires improvement"
       ],
       "waiting_on": [
         "Guillaume",
