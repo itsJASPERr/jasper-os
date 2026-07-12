@@ -32,11 +32,13 @@
       "waiting_on": [],
       "repositories": [],
       "next_actions": [
-        "Generate daily executive state"
+        "Generate daily executive state",
+        "Maintain ExecutiveStateProtocol lifecycle"
       ],
       "recent_decisions": [
         "ExecutiveStateProtocol v3.0 frozen",
-        "Append-only executive history maintained"
+        "Append-only executive history maintained",
+        "Executive state contract separated from storage implementation"
       ]
     },
     {
@@ -44,22 +46,24 @@
       "name": "JasperOS",
       "status": "Active",
       "health": "Green",
-      "progress": 35,
+      "progress": 50,
       "repositories": [
         "github:itsJASPERr/jasper-os"
       ],
       "blockers": [],
       "waiting_on": [],
       "next_actions": [
-        "Implement Decisions interface",
-        "Build remaining Executive Cockpit widgets",
-        "Complete domain-based state consumption layer"
+        "Complete Executive Cockpit interfaces",
+        "Connect remaining ExecutiveStateProtocol domains",
+        "Implement executive work-item management"
       ],
       "recent_decisions": [
         "ExecutiveStateProtocol v3.0.0 adopted as canonical data source",
         "JasperOS maintained as executive layer separate from CompanyOS",
         "Executive Cockpit foundation validated",
-        "Domain-based state providers adopted"
+        "Domain-based state providers adopted",
+        "Astro migrated to Next.js",
+        "VM-based AI development workflow established"
       ]
     },
     {
@@ -110,7 +114,7 @@
       "recent_decisions": [
         "Funding ladder finalized",
         "Digital territory repository established",
-        "Establish recurring coordination meetings with Johan"
+        "Recurring coordination meetings with Johan required"
       ]
     },
     {

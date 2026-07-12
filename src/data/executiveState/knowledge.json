@@ -9,14 +9,18 @@
     "Domain separation improves implementation speed without requiring schema evolution.",
     "Executive state storage and executive contract are separate architectural layers.",
     "Historical executive information follows an append-only model.",
-    "JasperOS is the validation environment for future CompanyOS capabilities."
+    "JasperOS is the validation environment for future CompanyOS capabilities.",
+    "JasperOS successfully migrated from Astro to Next.js while preserving the executive architecture.",
+    "The Ubuntu VM with Code Server and OpenCode establishes the first dedicated AI-assisted development environment for the executive technology stack.",
+    "The development workflow now connects executive decisions directly with repository implementation."
   ],
 
   "open_questions": [
     "How should JasperOS synchronize updates back to the Executive Office?",
     "Should domain providers generate complete API responses or only expose domain-specific state endpoints?",
     "What authentication and synchronization model should CompanyOS use when consuming executive state?",
-    "How should future AI workers interact with ExecutiveStateProtocol without modifying the canonical contract?"
+    "How should future AI workers interact with ExecutiveStateProtocol without modifying the canonical contract?",
+    "What deployment profile should be prioritized after JasperOS validation: executive services or production services?"
   ],
 
   "ideas": [
@@ -24,7 +28,9 @@
     "Create domain-based providers that expose executive state as API-like responses.",
     "Use JasperOS as the first validation environment for future CompanyOS capabilities.",
     "Create automated executive briefing generation pipelines.",
-    "Develop executive state synchronization workflows between operational systems and the Executive Office."
+    "Develop executive state synchronization workflows between operational systems and the Executive Office.",
+    "Create reusable AI-assisted development workflows through OpenCode.",
+    "Build deployment profiles for development, executive, and production environments."
   ],
 
   "personal": {
@@ -33,7 +39,9 @@
       "Dashboard design",
       "Domain-driven state architecture",
       "Machine-readable executive workflows",
-      "Operating system design principles"
+      "Operating system design principles",
+      "AI-assisted software development workflows",
+      "Next.js application architecture"
     ]
   }
 }

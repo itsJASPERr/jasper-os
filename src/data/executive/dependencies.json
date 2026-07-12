@@ -13,5 +13,15 @@
     "from": "Executive Office",
     "to": "CompanyOS",
     "relationship": "Validated executive workflows become reusable platform capabilities."
+  },
+  {
+    "from": "JasperOS",
+    "to": "CompanyOS",
+    "relationship": "JasperOS validates executive workflows that can later become CompanyOS operational modules."
+  },
+  {
+    "from": "Executive Office",
+    "to": "OpenCode Development Workflow",
+    "relationship": "Executive decisions and state updates are translated into implementation tasks through AI-assisted development."
   }
 ]
