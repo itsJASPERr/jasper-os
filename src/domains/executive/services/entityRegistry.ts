@@ -37,7 +37,7 @@ export function resolveEntity(
                 id: decision.id,
                 type: "decision",
                 title: decision.title,
-                href: route(`decisions`)
+                href: route(`decisions/${decision.id}`)
             };
         }
 

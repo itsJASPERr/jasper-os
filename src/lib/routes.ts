@@ -4,5 +4,6 @@ export const routes = {
   strategy: "/strategy",
   domains: "/domains",
   intelligence: "/intelligence",
+  decisions: "/decisions",
   settings: "/settings",
 };

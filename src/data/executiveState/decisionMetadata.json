@@ -1,0 +1,40 @@
+{
+  "decision_categories": {
+    "DEC-2026-07-09-001": "Governance",
+    "DEC-2026-07-09-002": "Strategy",
+    "DEC-2026-07-09-003": "Operations",
+    "DEC-2026-07-09-004": "Governance",
+    "DEC-2026-07-09-005": "Operations",
+    "DEC-2026-07-09-006": "Architecture",
+    "DEC-2026-07-09-007": "Architecture",
+    "DEC-2026-07-10-008": "Governance",
+    "DEC-2026-07-12-010": "Architecture",
+    "DEC-2026-07-12-011": "Operations"
+  },
+  "category_definitions": {
+    "Governance": {
+      "description": "Decisions defining organizational rules, institutional structure, and foundational constraints.",
+      "color": "blue"
+    },
+    "Strategy": {
+      "description": "Decisions defining direction, priorities, and long-term positioning.",
+      "color": "purple"
+    },
+    "Architecture": {
+      "description": "Decisions defining technical systems, interfaces, and implementation principles.",
+      "color": "cyan"
+    },
+    "Operations": {
+      "description": "Decisions defining workflows, execution processes, and coordination methods.",
+      "color": "amber"
+    },
+    "Portfolio": {
+      "description": "Decisions defining resource allocation and priority between initiatives.",
+      "color": "emerald"
+    },
+    "Risk": {
+      "description": "Decisions designed to reduce uncertainty or protect strategic alignment.",
+      "color": "rose"
+    }
+  }
+}
